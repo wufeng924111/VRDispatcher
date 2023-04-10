@@ -1,0 +1,28 @@
+PODS:
+  - VRAModule (1.0.0):
+    - VRDispatcher
+  - VRBModule (1.0.0):
+    - VRDispatcher
+  - VRDispatcher (1.0.0)
+
+DEPENDENCIES:
+  - VRAModule (from `../VRAModule`)
+  - VRBModule (from `../VRBModule`)
+  - VRDispatcher (from `../`)
+
+EXTERNAL SOURCES:
+  VRAModule:
+    :path: "../VRAModule"
+  VRBModule:
+    :path: "../VRBModule"
+  VRDispatcher:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VRAModule: aa5b9410cfa1e89a86da0d3292240b924a67b565
+  VRBModule: 00054ba2236abd480f783ccbcb2e29f9aaff2d86
+  VRDispatcher: 2dbd7ea5d3c1c41bb1e1840f44a5ccd9cf8e1cdd
+
+PODFILE CHECKSUM: 3c8bcfe7afd7d940d9912aee33c0d33380fab7d2
+
+COCOAPODS: 1.11.3

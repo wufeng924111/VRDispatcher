@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'VRDispaterExample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for VRDispaterExample
+  pod 'VRDispatcher', :path => '../'
+  pod 'VRAModule', :path => '../VRAModule'
+  pod 'VRBModule', :path => '../VRBModule'
+end
